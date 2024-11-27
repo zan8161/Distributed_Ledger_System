@@ -2,7 +2,7 @@
 
 ## 1. Run docker Desktop
 
-## 2. In command line :
+## 2. Type in command line (at work dir) :
 ```
 docker-compose up --build
 ```
