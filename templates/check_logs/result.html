@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Check Logs</title>
+</head>
+<body>
+    <h1>The transaction logs of {{user}} is shown below</h1>
+    {% for log in logs %}
+        {{log}}<br>
+    {% endfor %}
+
+    <form action="/">
+        <button>Back to Home</button>
+    </form>
+</body>
+</html>

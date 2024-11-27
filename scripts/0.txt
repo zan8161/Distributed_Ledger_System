@@ -1,0 +1,7 @@
+Sha256 of previous block: None
+Next block: 5498.txt
+angle, A, 100
+angel, B, 100
+angel, C, 100
+A, B, 10
+A, C, 20

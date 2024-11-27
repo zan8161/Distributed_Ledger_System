@@ -1,0 +1,24 @@
+services:
+  node1:
+    build: .
+    ports:
+      - "8002:8001"
+    # working_dir: /client1
+    environment:
+      - NODE_ADDRESS=http://node1:8001
+
+  node2:
+    build: .
+    ports:
+      - "8003:8001"
+    # working_dir: /client2
+    environment:
+      - NODE_ADDRESS=http://node2:8001
+
+  node3:
+    build: .
+    ports:
+      - "8004:8001"
+    # working_dir: /client3
+    environment:
+      - NODE_ADDRESS=http://node3:8001
